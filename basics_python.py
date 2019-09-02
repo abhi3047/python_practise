@@ -33,4 +33,28 @@ CONSTANT_NAME=5000
  #tips: Never stress urself to write perfect code. Write a code that works 
  # and iteratively improve its quality
  ##
- 
+print("course is :{}".format(CONSTANT_NAME))
+
+names=["a","b"]
+names.append("c")
+names.insert(5,"e")
+print(names[3])
+#### deletes an elemet based on the index
+del names[2]
+names
+### pop() is used to remove the last elemt of the list
+### wd can pefrom operations with the last element
+last_element= names.pop()
+print(last_element)
+
+### pop() can also specified with the index
+second_element=names.pop(1)
+second_element
+### use pop when you wanted to perform operations on the deleted item
+### use del when you dont use the deleted item
+names.append("2")
+
+#### looping lists ####
+names=["a","b","c","d","e"]
+for name in names:
+    print(f"this is the name :{name}")
