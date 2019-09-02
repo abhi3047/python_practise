@@ -57,4 +57,8 @@ names.append("2")
 #### looping lists ####
 names=["a","b","c","d","e"]
 for name in names:
-    print(f"this is the name :{name}")
+    print(f"{name} is my name ")
+
+### converting a range of nos into list
+nos_list=list(range(2,13,2))
+print(nos_list)
