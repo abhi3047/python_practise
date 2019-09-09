@@ -62,3 +62,17 @@ for name in names:
 ### converting a range of nos into list
 nos_list=list(range(2,13,2))
 print(nos_list)
+
+#### list comprehensions
+list_add=[ no+no for no in range(6)]
+print(list_add)
+print(list_add[:-3])
+print(list_add[-3:])
+
+#### tuples
+old_tuple=(1,2,3,4,5)
+for x in old_tuple:
+    print(x)
+old_tuple=(3,4,5,6)
+for x in old_tuple:
+    print(x)
